@@ -1,7 +1,5 @@
 function getResolution() {
-    let res = ("Your screen resolution is: " + window.screen.width * window.devicePixelRatio + "x" + window
-        .screen
-        .height * window.devicePixelRatio);
+    let res = `Your screen resolution is: ${window.screen.width * window.devicePixelRatio}  x ${window.screen.height * window.devicePixelRatio}`;
     document.getElementById("resolution").innerHTML = res;
 }
 
